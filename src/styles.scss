@@ -19,3 +19,39 @@
 // ngx-datatable
 // @import "../node_modules/@swimlane/ngx-datatable/release/themes/bootstrap.css";
 // @import "../node_modules/@swimlane/ngx-datatable/release/themes/material.css";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body, html {
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.3em;
+  display: grid;
+  grid-template-columns: 30% auto;
+
+  a {
+    color: white;
+  }
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+
