@@ -32,3 +32,9 @@ interface ICookieConsent {
     showConsent: boolean;
     cookieString: string;
 }
+
+interface IColor {
+  code: string;
+  text: string;
+}
+

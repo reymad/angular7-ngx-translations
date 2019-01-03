@@ -16,9 +16,8 @@ export class HomeComponent {
   // ++ View interpolations ++ //
   title = _('demo.title');
   anothervar = _('anothervar');
-  color = Globals.randomColor();
+  color: IColor = Globals.randomColor();
 
-  // https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-angular7-app-with-ngx-translate
   constructor(
     private translate: TranslateService,
   ) {
@@ -28,7 +27,7 @@ export class HomeComponent {
     this.translate.use(language);
   }
   public changeColor() {
-    this.color = Globals.randomColor();
+    this.color = Globals.randomColor(this.color.code);
   }
 
 }

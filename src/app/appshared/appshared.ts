@@ -6,10 +6,14 @@ export class Globals {
   public static color: string = "blue";
   public static colors: Array<string> = ["yellow", "black", "red", "blue", "green", "magenta"];
 
-  public static randomColor(): string {
+  public static randomColor(color: string = null): IColor {
 
-    let rnd = Math.floor(Math.random() * this.colors.length); 
-    return this.colors[rnd];
+    let newcolor: string = null;
+    do {
+      newcolor = this.colors[Math.floor(Math.random() * this.colors.length)];
+    } while (color == newcolor)
+
+    return { code: newcolor, text: 'colors.' + newcolor } as IColor;
 
   };
 

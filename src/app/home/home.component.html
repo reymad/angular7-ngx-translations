@@ -1,6 +1,6 @@
 <div style="text-align:center">
   <h1>
-    Welcome to {{ title }}! Color is <b [style.color]="color">{{color}}</b>
+    Welcome to {{ title | translate }}! Color is <b [style.color]="color.code">{{ color.text | translate }}</b>
   </h1>
   <p>{{ 'demo.greeting' | translate: {'name':'Manolo!'} }}</p>
   <p>{{ 'demo.letsee' | translate: {'param1': 'algo', 'param2': 'algo2'} }}</p>
