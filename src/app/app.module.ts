@@ -11,9 +11,18 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 // import ngx-translate-messageformat-compiler
 import { TranslateMessageFormatCompiler } from 'ngx-translate-messageformat-compiler';
 
+// modules
+import { FooterComponent, HeaderComponent, PrivacyComponent } from './components';
+import { HomeComponent } from './home/home.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    // components
+    AppComponent,
+    HomeComponent,
+    FooterComponent,
+    HeaderComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,

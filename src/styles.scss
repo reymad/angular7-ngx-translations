@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+// Font awesome
+// $fa-font-path: '../node_modules/font-awesome/fonts';
+// @import '../node_modules/font-awesome/scss/font-awesome';
+
+// Your variable overrides
+// $body-bg: #000;
+// $body-color: #111;
+
+// $theme-colors: (
+//   "primary": #0074d9,
+//   "danger": #ff4136
+// );
+
+// IMPORT BOOTSTRAP TWO WAYS
+// Options A
+@import '../node_modules/bootstrap-scss/bootstrap';
+
+// ngx-datatable
+// @import "../node_modules/@swimlane/ngx-datatable/release/themes/bootstrap.css";
+// @import "../node_modules/@swimlane/ngx-datatable/release/themes/material.css";
