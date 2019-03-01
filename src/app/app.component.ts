@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  // ++ View interpolations ++ //
-  title = "Angular7";
+    // ++ View interpolations ++ //
+    title = "Angular7";
 
 }

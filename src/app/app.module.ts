@@ -15,6 +15,11 @@ import { TranslateMessageFormatCompiler } from 'ngx-translate-messageformat-comp
 import { FooterComponent, HeaderComponent, PrivacyComponent } from './components';
 import { HomeComponent } from './home/home.component';
 
+// import { MatToolbarModule, MatSidenavModule, MatListModule, MatButtonModule, MatIconModule } from "@angular/material";
+// import { FlexLayoutModule } from "@angular/flex-layout";
+// 
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     // components
@@ -27,6 +32,16 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+
+    // material stuff for sidenav
+   // MatToolbarModule,
+   // MatSidenavModule,
+   // MatListModule,
+   // MatIconModule,
+   // MatButtonModule,
+   // FlexLayoutModule,
+   // BrowserAnimationsModule,
+
     // configure the imports
     HttpClientModule,
     TranslateModule.forRoot({
